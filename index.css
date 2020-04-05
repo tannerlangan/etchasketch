@@ -1,0 +1,19 @@
+body{
+    background-color: lightsteelblue;
+}
+
+#gridContainer{
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 800px; 
+    height: 480px;
+    display: grid; 
+    grid-template-columns: repeat(16, auto);
+    grid-template-rows: repeat(16, auto); 
+    background-color: lemonchiffon;
+}
+
+#title{
+    text-align: center;
+
+}
